@@ -19,7 +19,7 @@ apiDemo.registerObject(require('./api-object').DemoObj);
 apiError.registerObject(require('./api-object').ErrorObj);
 apiInfo.registerObject(require('./api-object').InfoObj);
 // - Register individual API callback
-apiDemo.register('echo2',param => 'echo2:' + param);
+apiDemo.register('echo2', param => 'echo2:' + param);
 // - list registered api
 console.log('---');
 console.log('apiData.list():' + apiData.list());
@@ -47,6 +47,12 @@ ex.app
 	// Static route
 	.use('/node_modules', Ex.static(ex._const.node_modules))	// node_modules
 	.use('/app', Ex.static(ex._const.app))	// APP
+	// Enable CROS
+	.use(function (req, res, next) {
+		res.header("Access-Control-Allow-Origin", "*");
+		res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+		next();
+	})
 	// API handler - post
 	// API response handler - post
 	.post(path.join(apiDataUrl, '*'), (req, res) => apiData.response(req, res))
