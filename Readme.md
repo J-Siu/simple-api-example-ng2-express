@@ -1,14 +1,17 @@
 # simple-api-example-ng2-node
 
 This is example for the following 2 libraries:
-- [simple-api-node](https://github.com/J-Siu/simple-api-node) an expressjs api handler
+- [simple-api-node](https://github.com/J-Siu/simple-api-express) an expressjs api handler
 - [simple-api-client-ng2](https://github.com/J-Siu/simple-api-client-ng2), an Angular 2 api service
 
 ## Index
 
-* [Usage](#Usage)
-* [Changelog](#Changelog)
-* [License](#License)
+- [Usage](#usage)
+- [Node.js Server Code](#nodejs-server-code)
+- [Angular 2 Application Code](#angular-2-application-code)
+- [Contributors](#contributors)
+- [Changelog](#changelog)
+- [License](#license)
 
 ## Usage
 
@@ -18,7 +21,8 @@ npm run build-app
 npm start
 ```
 
-## Server
+## Node.js Server Code
+
 ```
 server/
 ├── api-object
@@ -30,7 +34,7 @@ server/
 └── server.js
 ```
 
-## App
+## Angular 2 Application Code
 
 ```
 public/
@@ -38,15 +42,17 @@ public/
 │   ├── api.service.ts
 │   ├── app.component.ts
 │   ├── app.module.ts
+│   ├── app.routing.ts
 │   ├── data.component.ts
 │   ├── demo.component.ts
 │   ├── error.component.ts
+│   ├── home.component.ts
 │   ├── info.component.ts
-│   └── main.ts
-├── index.html
-└── systemjs.config.js
-```
+│   ├── main.ts
+│   └── systemjs.config.js
+└── index.html
 
+```
 
 ## Contributors
 

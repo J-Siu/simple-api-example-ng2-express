@@ -5,7 +5,10 @@ import {ApiService}from'./api.service';
 	'selector': 'info-component',
 	'template': `
 		<h3>{{title}}</h3>
+		<p>Info api is setup in api.service.ts</p>
+		<p>API Url: /info/date</p>
 		<div><button (click)="getDate()">Get Date</button>{{date}}</div>
+		<p>API Url: /info/time</p>
 		<div><button (click)="getTime()">Get Time</button>{{time}}</div>
 		`
 })

@@ -1,11 +1,11 @@
 {
-  "name": "simple-api-example-ng2-node",
-  "description": "Simple api example for Nodejs + Angular2",
+  "name": "simple-api-example-ng2-express",
+  "description": "Simple api example for ExpressJS + Angular2",
   "version": "1.2.0",
   "scripts": {
-    "start": "node server/server.js",
-    "typings": "typings install",
-    "build-app": "tsc"
+    "build-app": "tsc",
+    "postinstall": "typings install",
+    "start": "node server/server.js"
   },
   "author": {
     "name": "John, Sing Dao, Siu",
@@ -24,11 +24,11 @@
     "simple"
   ],
   "bugs": {
-    "url": "https://github.com/J-Siu/simple-api-example-ng2-node/issues"
+    "url": "https://github.com/J-Siu/simple-api-example-ng2-express/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/J-Siu/simple-api-example-ng2-node.git"
+    "url": "git+https://github.com/J-Siu/simple-api-example-ng2-express.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -39,15 +39,16 @@
     "@angular/http": "2.0.0",
     "@angular/platform-browser": "2.0.0",
     "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
     "body-parser": "*",
     "compression": "*",
-    "core-js": "^2.4.0",
+    "es6-shim": "*",
     "express": "*",
     "morgan": "*",
     "reflect-metadata": "^0.1.3",
     "rxjs": "5.0.0-beta.12",
-    "simple-api-client-ng2": "file:///Volumes/HD2/JS/Documents/code/JSDS/simple-api-client-ng2",
-    "simple-api-node": "file:///Volumes/HD2/JS/Documents/code/JSDS/simple-api-node",
+    "simple-api-client-ng2": "*",
+    "simple-api-express": "*",
     "systemjs": "^0.19.27",
     "url-join": "*",
     "zone.js": "^0.6.23"

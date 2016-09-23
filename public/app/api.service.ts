@@ -7,15 +7,11 @@ export class ApiService {
 	demo: SimpleApiObj;
 	info: SimpleApiObj;
 	constructor(private api: SimpleApiClient) {
-		// demo use ng2-simple-api default error handler
 		this.demo = this.api.get('/demo');
 
-		// data replace ng2-simple-api default error handler
 		this.info = this.api.get('/info');
 
-		// data replace ng2-simple-api default error handler
 		this.data = this.api.get('/data');
-		// this.data.setErrorHandler();
 	}
 
 	list() {

@@ -5,8 +5,12 @@ import {ApiService}from'./api.service';
 	'selector': 'data-component',
 	'template': `
 		<h3>{{title}}</h3>
+		<p>Data api is setup in api.service.ts</p>
+		<p>API Url: /data/num</p>
 		<div><button (click)="num()">Get random number</button>{{replyNum}}</div>
+		<p>API Url: /data/str</p>
 		<div><button (click)="str()">Get random string</button>{{replyStr}}</div>
+		<p>API Url: /data/obj</p>
 		<div><button (click)="obj()">Get random object</button><pre>{{replyObj}}</pre></div>`
 })
 export class DataComponent {
