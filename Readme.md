@@ -1,7 +1,7 @@
 # simple-api-example-ng2-node
 
 This is example for the following 2 libraries:
-- [simple-api-node](https://github.com/J-Siu/simple-api-express) an expressjs api handler
+- [simple-api-express](https://github.com/J-Siu/simple-api-express) an Expressjs api handler
 - [simple-api-client-ng2](https://github.com/J-Siu/simple-api-client-ng2), an Angular 2 api service
 
 ## Index
