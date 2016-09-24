@@ -1,7 +1,8 @@
 .DS_Store
 .vscode
-public/app/*.js
-public/app/*.js.map
 node_modules
 npm-debug.log
+public/app/*.js
+public/app/*.js.map
 typings
+!public/app/systemjs.config.js

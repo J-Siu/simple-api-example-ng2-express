@@ -1,4 +1,4 @@
-//process.env['DEBUG'] = 'express:*';
+process.env['DEBUG'] = 'express:*';
 const path = require('path');
 
 // SimpleApi
