@@ -18,7 +18,7 @@ import {SimpleApiClient, SimpleApiObj}from'simple-api-client-ng2';
 			 This custom error handler will put the error information into errorMsg.</p>
 		<p>API Url: /demo/notexist</p>
 		<div><button (click)="notExist2()">API not exist(2)</button></div>
-		<div>errorMsg: {{errorMsg}}</div>
+		<div>errorMsg: <pre>{{errorMsg}}</pre></div>
 		<h4>Server side callback throw error</h4>
 		<p>Following button will make a call to api link /error/error,
 			 of which the callback will manually throw an error message.
@@ -73,7 +73,8 @@ export class ErrorComponent implements OnInit {
 	}
 
 	customErrorHandler(e) {
-		this.errorMsg = e;
+		console.log(e._body);
+		this.errorMsg = JSON.stringify(e,null,2);
 	}
 
 }
