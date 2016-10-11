@@ -1,7 +1,7 @@
 {
   "name": "simple-api-example-ng2-express",
   "description": "Simple api example for ExpressJS + Angular2",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "scripts": {
     "build-app": "tsc",
     "postinstall": "typings install",
@@ -9,8 +9,7 @@
   },
   "author": {
     "name": "John, Sing Dao, Siu",
-    "email": "js@johnsiu.com",
-    "url": "https://johnsiu.com/"
+    "url": "https://github.com/J-Siu"
   },
   "keywords": [
     "2",

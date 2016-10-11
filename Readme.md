@@ -56,12 +56,14 @@ public/
 
 ## Contributors
 
-* John Sing Dao Siu <john.sd.siu@gmail.com>
+* [John Sing Dao Siu](https://github.com/J-Siu)
 
 ## Changelog
 
 * 1.2.0 - Initial upload
-
+* 1.2.1
+	- Update package.json
+	- Update Readme.md
 ## License
 
 The MIT License
