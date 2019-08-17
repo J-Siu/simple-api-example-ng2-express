@@ -4,6 +4,12 @@ This is example for the following 2 libraries:
 - [simple-api-express](https://github.com/J-Siu/simple-api-express) an Expressjs api handler
 - [simple-api-client-ng2](https://github.com/J-Siu/simple-api-client-ng2), an Angular 2 api service
 
+> To enable faster update, simple-api-client-ng2 switched to Angular CLI starting 8.2.0 and use new repository https://github.com/J-Siu/ng2-simple-api-lib/
+>
+> The new repository contains both library and server example.
+>
+> This example repository will no longer be maintained.
+
 ## Index
 
 - [Usage](#usage)
