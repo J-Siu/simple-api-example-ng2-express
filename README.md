@@ -1,7 +1,7 @@
-# simple-api-example-ng2-node
+# Angular Simple API Express Example [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
 This is example for the following 2 libraries:
-- [simple-api-express](https://github.com/J-Siu/simple-api-express) an Expressjs api handler
+- [simple-api-express](https://github.com/J-Siu/simple-api-express) an ExpressJs api handler
 - [simple-api-client-ng2](https://github.com/J-Siu/simple-api-client-ng2), an Angular 2 api service
 
 > To enable faster update, simple-api-client-ng2 switched to Angular CLI starting 8.2.0 and use new repository https://github.com/J-Siu/ng2-simple-api-lib/
@@ -10,7 +10,8 @@ This is example for the following 2 libraries:
 >
 > This example repository will no longer be maintained.
 
-## Index
+### Table Of Content
+<!-- TOC -->
 
 - [Usage](#usage)
 - [Node.js Server Code](#nodejs-server-code)
@@ -19,7 +20,9 @@ This is example for the following 2 libraries:
 - [Changelog](#changelog)
 - [License](#license)
 
-## Usage
+<!-- /TOC -->
+
+### Usage
 
 ```
 npm install
@@ -27,7 +30,7 @@ npm run build-app
 npm start
 ```
 
-## Node.js Server Code
+### Node.js Server Code
 
 ```
 server/
@@ -40,7 +43,7 @@ server/
 └── server.js
 ```
 
-## Angular 2 Application Code
+### Angular 2 Application Code
 
 ```
 public/
@@ -60,17 +63,17 @@ public/
 
 ```
 
-## Contributors
+### Contributors
 
 * [John Sing Dao Siu](https://github.com/J-Siu)
 
-## Changelog
+### Changelog
 
 * 1.2.0 - Initial upload
 * 1.2.1
 	- Update package.json
 	- Update Readme.md
-## License
+### License
 
 The MIT License
 
